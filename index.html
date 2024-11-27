@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Podcast Player</title>
+  <link rel="stylesheet" href="https://cdn.podlove.org/web-player.css">
+  <script src="https://cdn.podlove.org/web-player.js"></script>
+</head>
+<body>
+  <h1>Podcast Player</h1>
+  <div id="podcast-player"></div>
+
+  <script>
+    PodlovePlayer('#podcast-player', {
+      "show": "Your Podcast Title",
+      "feed": "https://feeds.buzzsprout.com/2228144.rss"
+    });
+  </script>
+</body>
+</html>
